@@ -275,6 +275,7 @@
         </div>
       </div>
     </div>
+
     <!-- Container (Previous Concerts and Events Section) -->
     <div class="jumbotron jumbotron-fluid bg-red text-center" id="concertsandevents">
       <div class="container-fluid">
@@ -287,11 +288,12 @@
         </div>
       </div>
     </div>
+
     <!-- Container (Members Section) -->
     <div id="members" class="jumbotron jumbotron-fluid bg-white">
       <div class="container">    
         <div class="row">
-          <div class="col-sm-4 text-centre">
+          <div class="col-sm-4 text-center">
             <h4 class="red-text">Accompanist</h4>
             <h3 class="red-text">Elizabeth Arkell</h3>
             <br>
@@ -300,7 +302,7 @@
             <br>
             <button class="btn" data-toggle="modal" data-target="#myModal">Bio</button>
           </div>
-          <div class="col-sm-4 text-centre">
+          <div class="col-sm-4 text-center">
             <h1 class="red-text">Members</h1>
             <br>
             <p>Chair: Tessa Leuchars</p>
@@ -311,7 +313,7 @@
             <br>
             <br>
           </div>
-          <div class="col-sm-4 text-centre">
+          <div class="col-sm-4 text-center">
             <h4 class="red-text">Musical Director & Conductor</h4>
             <h3 class="red-text">Andrew Kennedy</h3>
             <br>
@@ -320,9 +322,39 @@
             <br>
             <button class="btn" data-toggle="modal" data-target="#myModal">Bio</button>
         </div>
+        <div class="row"> 
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <h2 class="text-center red-text">Why we enjoy singing with ODCS</h2>
+            <br>
+            <blockquote class="blockquote">
+              <p>“It is such a privilege for us to have Andrew Kennedy as our Musical Director, Conductor and Vocal Coach. What other choral society can boast that they have a former award winner of BBC Cardiff Singer of the World at the helm?”</p>
+              <footer class="blockquote-footer">Jeremy</footer>
+            </blockquote>
+            <blockquote class="blockquote">
+              <p>"ODCS is the most friendly, relaxed and enjoyable choral society I have ever belonged to."  </p>
+              <footer class="blockquote-footer">Trisha</footer>
+            </blockquote>
+            <blockquote class="blockquote">
+              <p>"I love the challenge of learning a new piece from scratch. Over the weeks, we gain confidence and learn to blend our voices and add depth and emotion to the notes on the score. Then when it all comes together in a concert performance and we bring joy to an audience, there are few greater highs in life!"</p>
+              <footer class="blockquote-footer">Clare</footer>
+            </blockquote>
+            <blockquote class="blockquote">
+              <p>" Singing is the perfect form of exercise and relaxation, focussing your mind, whatever the day has thrown at you!" </p>
+              <footer class="blockquote-footer">Tessa</footer>
+            </blockquote>
+            <blockquote class="blockquote">
+              <p>“Singing with ODCS provides an exhilarating combination of pleasure and professionalism no matter what level of experience one has. It combines learning new skills and scores with physical and mental health and provides enjoyment, social interaction and hours of fun!”</p>
+              <footer class="blockquote-footer">Janet</footer>
+            </blockquote>
+            <blockquote class="blockquote">
+              <p>“Like many choirs, Oundle and District Choral Society has a slight imbalance when it comes to male singers in the tenor and bass sections. So earlier this year, when the plea went out asking whether any altos might consider defecting to the tenor line, I thought, “Why not?” Having sung tenor in a previous choir, I volunteered… and so, an ODCS “talto” was born. I’m delighted I made the switch. The gentlemen have been wonderfully welcoming, and the tenor range suits my voice far better than the slightly higher alto line. Besides, if everyone is singing all the right notes in all the right places, and not like Eric Morecambe, who famously played ‘all the right notes, but not necessarily in the right order’ — nobody seems to mind too much who is singing them!   Of course, we’d still love more gentlemen to join the choir and bolster the tenor and bass sections… but equally, if any altos are feeling adventurous, I can highly recommend coming over to the dark side. We may be short on numbers, but we make up for it in enthusiasm, questionable jokes, and excellent harmonies.”</p>
+              <footer class="blockquote-footer">Jennifer</footer>
+            </blockquote>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
       </div>
-    </div>
-
     </div>
 
     <div class="jumbotron jumbotron-fluid bg-red" id="music">
@@ -354,7 +386,7 @@
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid bg-white" id="contactus">
-      <div class="container text-centre">
+      <div class="container text-center">
         <h1 class="red-text">Contact Us</h1>
         <p>
           <a class="red-text" href="mailto:tleuchars@btinternet.com">Tessa Leuchars - Chair </a>
@@ -372,20 +404,5 @@
         <img class="img-fluid" src="images/ocsred.png">
       </div>  
     </div>
-    <script>
-        //scroll smooth jquery 700 scroll speed -50 margin
-        $('.nav-link').click(function() {
-            var sectionTo = $(this).attr('href');
-            $('html, body').animate({
-                scrollTop: $(sectionTo).offset().top - 50
-            }, 700);
-        });
-        $('.navbar-brand').click(function() {
-            var sectionTo = $(this).attr('href');
-            $('html, body').animate({
-                scrollTop: $(sectionTo).offset().top - 80
-            }, 700);
-        });
-    <script>
   </body>
   </html>
